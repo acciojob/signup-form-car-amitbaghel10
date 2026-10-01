@@ -20,13 +20,14 @@
     <input type="email" id="email" name="email" placeholder="Email" required>
 
     <label for="gender_m">Male</label>
-    <input type="radio" id="gender_m" name="gender_m" required>
+    <input type="radio" id="gender_m" name="gender" required>
 
     <label for="gender_f">Female</label>
-    <input type="radio" id="gender_f" name="gender_m" required>
+    <input type="radio" id="gender_f" name="gender" required>
 
     <select id="cars" placeholder="--Please choose an option--" required>
-        <option>BMW</option>
+        <option value="" disabled selected>--Please choose an option--</option>
+		<option>BMW</option>
         <option>Mercedes</option>
         <option>Land Rover</option>
     </select>
